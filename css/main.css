@@ -1,0 +1,68 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.header {
+	background-color: #00fff0;
+	padding: 100px 0;
+	border-bottom: 8px solid #19ede1;
+}
+
+.almost {
+	background-color: #13c7bc;
+	padding: 100px 0;
+	border-bottom: 8px solid #1aa79f;
+}
+
+.footer {
+	background-color: #222222;
+	padding: 31.5px;
+	vertical-align: middle;
+	color: #fff
+	font
+}
+
+.lead {
+	margin-top: 3px;
+	font-size: 1.2em;
+	vertical-align: middle;
+	color: #fff;
+}
+
+@media (min-width: 1px) {
+	.van {
+		display: none;
+		margin: 0 auto;
+	}
+}
+
+
+@media (min-width: 780px) {
+	.van {
+		display: block; 
+		margin: 0 auto;
+	}
+}
+
+@media (min-width: 320px) {
+	.col-lg.5 {
+		font-size: 1.2em;
+	}
+}
+
+.your {
+	font-weight: 900;
+	font-size: 4em;
+	margin-top: -5px;
+	text-shadow: 0 8 #19ede1;
+	color: #fff;
+}
+.ready {
+	font-weight: 900;
+	font-size: 3.2em;
+	color: #fff;
+}
+.glphy-1 {
+	color: #fff;
+	text-shadow: 0px 5px #1d817b;
+}
