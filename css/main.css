@@ -1,3 +1,8 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
 body {
 	font-family: 'Roboto', sans-serif;
 }
@@ -5,13 +10,13 @@ body {
 .header {
 	background-color: #00fff0;
 	padding: 100px 0;
-	border-bottom: 8px solid #19ede1;
+	vertical-align: middle;
+	display: block;
 }
 
 .almost {
 	background-color: #13c7bc;
 	padding: 100px 0;
-	border-bottom: 8px solid #1aa79f;
 }
 
 .footer {
@@ -54,15 +59,59 @@ body {
 	font-weight: 900;
 	font-size: 4em;
 	margin-top: -5px;
-	text-shadow: 0 8 #19ede1;
 	color: #fff;
+	text-shadow: 0px 0px 20px rgba(0,0,0, 0.5);
 }
 .ready {
 	font-weight: 900;
-	font-size: 3.2em;
+	font-size: 2.8em;
 	color: #fff;
+	text-shadow: 0px 0px 20px rgba(0,0,0, 0.5);
 }
 .glphy-1 {
 	color: #fff;
-	text-shadow: 0px 5px #1d817b;
+	text-shadow: 0px 0px 20px rgba(0,0,0, 0.5);
+}
+.text-center {
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 0px 20px rgba(0,0,0, 0.5);
+}
+
+/* iFrame */
+@media (min-width: 100px) {
+  iframe {
+    margin-left: -30px;
+    text-align: center;
+    width: 200px;
+  }
+}
+@media (min-width: 400px) {
+  iframe {
+    margin-left: -30px;
+    width: 200px;
+  }
+}
+@media (min-width: 768px) {
+  iframe {
+    width: 100%;
+  }
+}
+/* iFrame */
+.btn-primary {
+	border-radius: 0px;
+}
+.btn-insta {
+	border-radius: 0px;
+	background-color: #f1f1f1;
+	color: #222222;
+	margin-left: 20px;
+}
+
+.btn-insta:focus,
+.btn-insta:hover,
+.btn-insta:active {
+	border-radius: 0px;
+	background-color: #ffffff;
+	color: #ff3300;
 }
