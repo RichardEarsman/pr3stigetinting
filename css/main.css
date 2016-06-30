@@ -44,6 +44,30 @@ body {
 	color: #9DABBA;
 	margin-bottom: 30px;
 }
+@media screen and (min-width: 250px) {
+	.h4-h {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.h4.h {
+		width: 50%; 
+	}
+}
+
+@media screen and (min-width: 250px) {
+	.h4-h-1 {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.h4.h-1 {
+		width: 50%; 
+	}
+}
+
 /* Typography */
 
 /* Form Inputs */
