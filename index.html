@@ -9,88 +9,41 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:100,400,500,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
 
   </head>
   <body>
 
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Prestige Tinting</a>
-        </div>
+    <header id="top" class="header">
+      <div class="text-vertical-center">
+        <div class="container">
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="#">About Us</a></li>
-            <li class="dropdown">
-              <li><a href="#">Contact Us</a></li>
-            </li>
-          </ul>
+          <h2>Sorry, Maintenance.</h2>
+          <h4 class="h4-h">We are currently undergoing a much needed revamp, we'll be back soon! If you'd like to get an enquire please contact us with the form bellow.</h4>
 
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Social Media<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Facebook</a></li>
-                <li><a href="#">Instagram</a></li>
-                <li><a href="#">Contact Us</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-          
-    <div class="header">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5 col-sm-6">
-            <h1 class="your">YOUR</h1>
-            <h1 class="your">WINDOW</h1>
-            <h1 class="your">TINTING</h1>
-            <h1 class="your">SOLUTIONS</h1>
-            <h1 class="your-solved">SOLVED.</h1>
-          </div>
+          <br>
+          <br>
 
-          <div class="col-lg-5 col-sm-6">
-            <img class="img-responsive van" src="img/van.png" alt="">
-          </div>
+          <form action="https://formspree.io/contact@jackearsman.com"method="POST">
+
+            <div class="form-group">
+              <input type="text" name="Name" placeholder="Full Name" required="">
+            </div>
+
+            <div class="form-group">
+              <input type="email" name="Email" placeholder="Email Address" required="">
+            </div>
+
+            <div class="form-group">
+              <textarea type="text" name="Message" placeholder="Message" required></textarea>
+            </div>
+
+            <button class="btn btn-md btn-submit" name="_next" value="http://pr3stigetinting.com/thanks"type="submit">Send</button>
+
         </div>
       </div>
-    </div>
-
-    <div class="news">
-      <div class="container">
-        <h4 class="news-title">Pr3stige News</h4>
-        <h2 class="title">Introducing windscreen repairs.</h2>
-        <h4 class="news-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
-      </div>
-    </div>
-
-    <a href="#">
-      <div class="btn btn-md btn-news">
-        Learn More
-      </div>
-    </a>
-
-    <div class="footer">
-      <div class="container">
-        <div class="text-left">
-          <h4 class="footer-lead">&copy; Pr3stigeTinting.com</h4>
-        </div>
-      </div>
-    </div>
+    </header>
 
     			<!-- <iframe allowTransparency="true" style="min-height:300px; height:inherit; overflow:auto;" width="100%" id="contactform123" name="contactform123" marginwidth="0" marginheight="0" frameborder="0" src="http://www.123contactform.com/my-contact-form-1980339.html">
     			<p>Your browser does not support iframes. The contact form cannot be displayed. Please use another contact method (phone, fax etc)</p>
@@ -100,5 +53,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/popover.js"></script>
     <script src="js/tooltip.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
   </body>
 </html>
