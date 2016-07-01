@@ -143,7 +143,7 @@ textarea {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 20px;
 	transition: all 0.5s ease-in-out;
 }
 
@@ -158,10 +158,21 @@ textarea {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 	border-bottom-left-radius: 20px;
-	border-bottom-right-radius: 0px;
+	border-bottom-right-radius: 20px;
 	transition: all 0.5s ease-in-out;
 }
 /* Submit Button */
+
+.footer {
+	margin-bottom: -20px;
+	margin-top: -20px;
+	display: inline;
+}
+
+.footer-inner {
+	margin-bottom: -10px;
+	display: inline;
+}
 
 /* Coded by Jack Earsman */
 /*
