@@ -68,7 +68,39 @@ body {
 	}
 }
 
+.number {
+	color: #01c1b4;
+}
+
+.glyphicon {
+	margin-bottom: 10px;
+	color: #01c1b4;
+}
+
 /* Typography */
+
+/* Number box */
+.number-box {
+	padding: 15px 20px;
+	width: 50%;
+	margin: 0 auto;
+	background: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.175);
+}
+
+@media screen and (min-width: 250px) {
+	.number-box {
+		width: 75%;
+	}
+}
+
+@media screen and (min-width: 450px) {
+	.number-box {
+		width: 50%;
+	}
+}
+/* Number Box */
+
 
 /* Form Inputs */
 input {
