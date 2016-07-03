@@ -19,20 +19,27 @@ body {
 
 /* Contact Nav */
 .contact {
-	padding-top: 10px;
-	padding-bottom: 5px;
-	padding-left: 45px;
-	padding-right: 10px;
-	text-align: center;
+    display: table;
+    position: relative;
+    padding-left: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+    width: 100%;
 	color: #fff;
 	background-color: #111;
+}
+
+.text-vertical-center-contact {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
 }
 /* Contact Nav */
 
 /* Nav */
 .navbar-default {
-	padding-top: 10px;
-    padding-bottom: 10px;
+	padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 30px;
     padding-right: 30px;
 	border: none;
