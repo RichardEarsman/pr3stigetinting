@@ -45,6 +45,39 @@ body {
 	transition: all 0.5s ease;
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: rgba(0,0,0,0.375);
+    transition: all 0.5s ease-in-out;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+        margin-top: 10px;
+        color: #0e857d;
+        transition: all 0.5s ease;
+    }
+}
+
+@media (max-width: 767px) {
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, 
+    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        background-color: transparent;
+        transition: all 0.5s ease;
+    }
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:active {
+  background-color: transparent;
+  transition: all 0.5s ease-in-out;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active {
@@ -199,3 +232,89 @@ body {
     background-color: #111;
 }
 /* Header */
+
+/* Services */
+
+/* Services */
+.about {
+    position: relative;
+    display: block;
+    width: 100%;
+    background-color: #f1f1f1;
+    color: #222;
+    font-weight: 400;
+}
+
+section {
+    clear: both;
+    float: none;
+    position: relative;
+}
+
+.who [class^=col-] {
+    padding: 30px 60px;
+    display: table;
+    position: relative;
+}
+
+.who {
+    display: table;
+    position: relative;
+}
+
+.background {
+    background: #f1f1f1;
+    color: #222;
+    position: relative;
+}
+
+.background-1 {
+    background: #222;
+    color: #fff;
+    position: relative;
+}
+
+.who-vertical-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.image-1 {
+    display: block;
+    min-height: 420px;
+    background-size: cover; 
+    background-image: url(https://images.unsplash.com/photo-1454264856604-ca40bd3a0a7a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b945921b8dfd3c77ccd72f02a7e122a4);
+}
+
+@media (min-width: 250px) {
+    .image-1 {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .image-1 {
+        display: none;
+    }
+}
+
+@media (min-width: 992.1px) {
+    .image-1 {
+        display: table;
+        position: relative;
+    }
+}
+
+@media (min-width: 990px) {
+    .lead {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1070px) {
+    .lead {
+        font-size: 18.5px;
+    }
+}
+
+/* Services */
