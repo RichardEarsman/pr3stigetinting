@@ -17,6 +17,7 @@ body {
 .header {
 	display: table;
     position: relative;
+    padding: 50px;
 	height: 100%;
 	width: 100%;
 	background: #f1f1f1;
