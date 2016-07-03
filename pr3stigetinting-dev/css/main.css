@@ -19,21 +19,24 @@ body {
 
 /* Contact Nav */
 .contact {
-	padding-top: 5px;
+	padding-top: 10px;
 	padding-bottom: 5px;
-	padding-left: 20px;
+	padding-left: 50px;
 	padding-right: 10px;
-	text-align: left;
+	text-align: center;
 	color: #fff;
-	background-color: #222;
+	background-color: #111;
 }
 /* Contact Nav */
 
 /* Nav */
 .navbar-default {
-	padding: 30px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 	border: none;
-	background-color: #01c1b4;
+	background-color: #222;
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
@@ -46,7 +49,7 @@ body {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: rgba(0,0,0,0.375);
+    background-color: #fff;
     transition: all 0.5s ease-in-out;
 }
 
@@ -57,7 +60,7 @@ body {
 @media (max-width: 767px) {
     .navbar-default .navbar-nav .open .dropdown-menu > li > a {
         margin-top: 10px;
-        color: #0e857d;
+        color: #444;
         transition: all 0.5s ease;
     }
 }
@@ -81,7 +84,7 @@ body {
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active {
-	color: #0e857d;
+	color: #555;
 	margin-right: 10px;
 	font-weight: 300;
 	transition: all 0.5s ease;
@@ -91,12 +94,12 @@ body {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: #fff;
-    background-color: #0e857d;
+    background-color: #222;
 }
 
 .navbar-default .navbar-nav > li > a {
  	transition: all 0.5s ease;
-    color: #0e857d;
+    color: #444;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -121,7 +124,7 @@ body {
 	.navbar-default .navbar-nav > .active > a:hover, 
 	.navbar-default .navbar-nav > .active > a:focus {
     	color: #fff;
-    	background-color: #0e857d;
+    	background-color: transparent;
 	}
 }
 
@@ -135,7 +138,7 @@ body {
 .navbar-default .navbar-nav > .open > a:hover, 
 .navbar-default .navbar-nav > .open > a:focus {
     color: #fff;
-    background-color: #0e857d;
+    background-color: transparent;
 }
 
 .dropdown-menu > li > a {
