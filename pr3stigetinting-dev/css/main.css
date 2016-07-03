@@ -36,7 +36,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 	border: none;
-	background-color: #222;
+	background-color: #00d7c8;
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
@@ -99,7 +99,7 @@ body {
 
 .navbar-default .navbar-nav > li > a {
  	transition: all 0.5s ease;
-    color: #444;
+    color: #04968c;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -238,7 +238,7 @@ body {
 
 /* Services */
 
-/* Services */
+/* about */
 .about {
     position: relative;
     display: block;
@@ -331,4 +331,13 @@ section {
     }
 }
 
-/* Services */
+/* About */
+
+/* Footer */
+.footer {
+    background-color: #222;
+    color: #fff;
+    font-weight: 100;
+    padding: 20px;
+}
+/* Footer */
