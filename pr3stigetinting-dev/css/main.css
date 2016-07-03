@@ -36,7 +36,7 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 	border: none;
-	background-color: #00d7c8;
+	background-color: #00ab9f;
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
@@ -99,7 +99,7 @@ body {
 
 .navbar-default .navbar-nav > li > a {
  	transition: all 0.5s ease;
-    color: #04968c;
+    color: #04867d;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -339,5 +339,8 @@ section {
     color: #fff;
     font-weight: 100;
     padding: 20px;
+    display: table;
+    position: relative;
 }
+
 /* Footer */
