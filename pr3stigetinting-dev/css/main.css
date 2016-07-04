@@ -340,6 +340,7 @@ section {
 
 @media screen and (min-width: 1000px) {
     .who-vertical-middle {
+        padding-top: 50px;
         width: 400px;
     }
 }
@@ -455,5 +456,116 @@ section {
 
 /* About */
 
+/* Contact */
+.contact-bg {
+    background-color: #222;
+    color: #fff;
+    padding: 50px;
+}
+
+.contact-h4 {
+    margin-top: -5px;
+    width: 650px;
+    margin-bottom: 50px;
+}
+/* Contact */
+
+.location {
+    width: 100%;
+    height: 80%;
+}
+
+iframe {
+    height: 80%;
+    width: 100%;
+    border: none;
+} 
+
+/* Form */
+input {
+    width: 100%;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 0px;
+}
+
+textarea {
+    width: 100%;
+    padding: 20px;
+    background-color: #111;
+    color: #fff;
+    border: none;
+    border-radius: 0px; 
+}
+
+textarea {
+    resize: none;
+}
+
+.btn-submit {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #00dccd;
+    border-radius: 0px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit:active {
+    width: 80%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgba(0,0,0,0.375);
+    border-radius: 0px;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+/* Form */
+
 /* Footer */
+.footer {
+    display: table;
+    position: relative;
+    padding: 50px;
+    width: 100%;
+    height: 250px;
+    color: #fff;
+    background-color: #222;
+}
+
+.footer-bg {
+    color: #fff;
+    background-color: #222;
+}
+
+.footer-text {
+    display: table-cell;
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.vertical-align-middle {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    margin-left: 250px;
+}
+
+.footer a {
+    color: rgba(255,255,255,0.537);
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.footer a:hover,
+.footer a:focus,
+.footer a:active {
+    color: #fff;
+    text-decoration: none;
+}
 /* Footer */
