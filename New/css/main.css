@@ -434,3 +434,36 @@ body {
   margin-bottom:1px;
 }
 /* Testimonials */
+
+/* Phone number */
+.phone-number {
+    display: table;
+    position: relative;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.phone-text {
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #222;
+}
+
+.phone-no {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    color: #337ab7;
+    font-weight: 400; 
+}
+
+.phone-no:hover,
+.phone-no:focus,
+.phone-no:active {
+    color: #1c4161;
+    text-decoration: none;
+    font-weight: 700;
+}
+/* Phone Number */
