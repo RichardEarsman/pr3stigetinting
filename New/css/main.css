@@ -578,7 +578,7 @@ body {
 }
 
 .modal-footer {
-    padding: 15px;
+    padding: 10px;
     text-align: right;
     border-top: 0px solid #e5e5e5;
 }
@@ -624,3 +624,64 @@ body {
     font-weight: 400;
 }
 /* Address Modal */
+
+/* Address Name */
+.overlay {
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+}
+
+.address-name {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    display: table;
+    position: relative;
+    background-color: rgba(0,0,0,0.5);
+    background-image: url(../img/map.jpg);
+    background-position: center;
+    background-size: auto;
+}
+
+.address-name-title {
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+/* Address Name */
+
+/* Contact Modal */
+/* Contact Modal */
+
+/* Footer */
+.footer {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: table;
+    position: relative;
+    width: 100%;
+    color: #fff;
+    background-color: #222;
+}
+
+.footer-text {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+a {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+a:hover,
+a:focus,
+a:active {
+    text-decoration: none;
+}
+/* Footer */
