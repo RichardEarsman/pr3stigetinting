@@ -357,6 +357,28 @@ body {
     background-color: rgba(0,0,0,0.8);
 }
 
+.btn-address {
+    padding: 20px 30px;
+    border-radius: 0px;
+    background-color: rgba(0,0,0,0.5);
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-right: 5px;
+    color: #fff;
+    border: none;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.btn-address:hover,
+.btn-address:focus,
+.btn-address:active {
+    color: #fff;
+    margin-right: 5px;
+    background-color: rgba(0,0,0,0.8);
+}
+
 .btn-contact {
     padding: 10px 30px;
     border-radius: 5px;
@@ -440,7 +462,7 @@ body {
     display: table;
     position: relative;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
     background-color: #222;
     color: #fff;
@@ -448,9 +470,9 @@ body {
 
 .phone-text {
     font-size: 25px;
+    margin-bottom: 30px;
     letter-spacing: 3px;
     font-weight: 700;
-    margin-bottom: -3px;
     color: #fff;
 }
 
@@ -527,3 +549,57 @@ body {
     /* padding-left: 15px; */
 }
 /* Column */
+
+/* Modal */
+.modal {
+    color: #fff;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #222;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0px solid #999;
+    border: 0px solid rgba(0, 0, 0, .2);
+    border-radius: 0px;
+    outline: 0;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
+}
+
+.modal-header {
+    padding: 15px;
+    border: none;
+    margin-bottom: 15px;
+    background-color: #fff;
+    color: #222;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 0px solid #e5e5e5;
+}
+
+.close {
+    float: right;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 1;
+    color: #222;
+    text-shadow: 0 0px 0 transparent;
+    filter: alpha(opacity=20);
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    opacity: 1;
+}
+
+.close:hover,
+.close:focus,
+.close:active {
+    color: #222;
+}
+/* Modal */
