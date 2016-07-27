@@ -469,8 +469,8 @@ body {
 }
 /* Testimonials */
 
-/* Phone number */
-.phone-number {
+/* Links */
+.links {
     display: table;
     position: relative;
     width: 100%;
@@ -480,7 +480,7 @@ body {
     color: #fff;
 }
 
-.phone-text {
+.links-header {
     font-size: 25px;
     margin-bottom: 30px;
     letter-spacing: 3px;
@@ -488,27 +488,7 @@ body {
     color: #fff;
 }
 
-.call-us {
-    font-size: 25px;
-}
-
-.phone-no {
-    transition: all 0.5s ease;
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    color: #337ab7;
-    text-transform: uppercase;
-    font-weight: 700pt; 
-}
-
-.phone-no:hover,
-.phone-no:focus,
-.phone-no:active {
-    color: #1f97ff;
-    text-decoration: none;
-    font-weight: 700;
-}
-/* Phone Number */
+/* Links */
 
 /* Column */
 .col-xs-1, 
