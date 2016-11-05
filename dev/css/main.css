@@ -126,6 +126,58 @@ body {
 .navbar-default .navbar-toggle {
     border-color: transparent;
 }
+
+/* Tabs Nav */
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: #252525;
+    border: none;
+    border-bottom-color: transparent;
+    cursor: default;
+}
+
+.nav-tabs > li > a:hover {
+  border-color: none;
+  border: none;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #555;
+  color: #fff;
+}
+
+.nav-tabs > li > a {
+  margin-right: 0px;
+  transition: all 0.5s ease;
+  line-height: 1.42857143;
+  border: none;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 0px 0px 0 0;
+}
+
+.nav-tabs {
+  border-bottom: none;
+  background-color: #eee;
+}
+
+.tab-content > .active {
+    display: block;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* Tabs Nav*/
+
 /* Nav */
 
 /* Top */
@@ -181,22 +233,24 @@ section {
 }
 
 .header-h1 {
-	font-size: 3em;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 	color: #fff;
 	margin-bottom: -20px;
 	transition: all 0.5s ease;
 	text-decoration: none;
-	color: #292929;
+	color: #fff;
 	text-decoration: none;
-	background-color: #fff;
+	background-color: #00aeff;
+    box-shadow: 0px 10px 50px rgba(0,0,0,0.5);
 	padding-top: 50px;
 	padding-bottom: 50px;
+    border-radius: 10px;
 }
 
 .header-h1:hover,
 .header-h1:focus {
-	color: #00aeff;
+	color: #fff;
+    background-color: #007db7;
 	text-decoration: none;
 	box-shadow: 0px 10px 50px rgba(0,0,0,0.5);
 }
@@ -304,12 +358,44 @@ body {
 }
 /* What People Said */
 
-/* Tinting */
-.tinting {
-	padding-top: 100px;
-	padding-bottom: 100px;
+/* Services */
+.services {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
 	background-color: #fff;
 	color: #292929;
+    position: relative;
+    display: table;
+}
+
+.btn-services {
+    padding-top: 30px;
+    margin-top: 0px;
+    padding-bottom: 30px;
+    border-radius: 0px;
+    width: 100%;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #00aeff;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    color: #fff;
+    margin-bottom: 0px;
+    -webkit-box-shadow: 3px 28px 155px 15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 28px 155px 15px rgba(0,0,0,0.75);
+    box-shadow: 3px 28px 155px 15px rgba(0,0,0,0.75);
+}
+
+.btn-services:hover,
+.btn-services:focus,
+.btn-services:active {
+    background-color: #007db7;
+    color: #fff;
+    -webkit-box-shadow: 3px 28px 155px 15px rgba(0,0,0,0.9);
+    -moz-box-shadow: 3px 28px 155px 15px rgba(0,0,0,0.9);
+    box-shadow: 3px 28px 155px 15px rgba(0,0,0,0.9);
 }
 
 .tinting-text {
@@ -321,7 +407,7 @@ body {
 	text-align: center;
 	color: #444;
 }
-/* Tinting */
+/* Services */
 
 /* Instagram */
 .instagram {
@@ -331,3 +417,14 @@ body {
 	background-color: #292929;
 }
 /* Instagram */
+
+/* Footer */
+.footer {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    background-color: #111;
+    color: #555;
+}
+/* Footer */
